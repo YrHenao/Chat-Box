@@ -11,7 +11,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Token del bot de Telegram
-TOKEN = "7781208203:AAERUe37rOUQSkAuXdXKKQSGHZ0jnWe1c-c"
+TOKEN = "XXXXXXXX"
 
 # Diccionario para almacenar los datos temporales de actualización
 user_data = {}
