@@ -10,7 +10,7 @@ import telebot
 
 
 # 📌 Configuración de Telegram
-TELEGRAM_BOT_TOKEN = "7781208203:AAERUe37rOUQSkAuXdXKKQSGHZ0jnWe1c-c"
+TELEGRAM_BOT_TOKEN = "XXXXXXXXX"
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 
@@ -146,7 +146,7 @@ def handle_message(message):
     # 📌 Si el mensaje es "EMERGENCY", enviar el contacto del supervisor
     if text == "EMERGENCY":
         response = "🚨 CONTACT EMERGENCY:\n\n"
-        response += "👨‍💼 *Barry Foss - Supervisor*\n📞 905 9219123"
+        response += "👨‍💼 *Barry Foss - Supervisor*\n📞 905 92XXXXX"
         bot.send_message(message.chat.id, escape_markdown_v2(response), parse_mode="MarkdownV2")
         return
 
