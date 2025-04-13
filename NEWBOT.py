@@ -25,7 +25,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # 📌 Configuración del bot de Telegram
-TELEGRAM_BOT_TOKEN = "7781208203:AAERUe37rOUQSkAuXdXKKQSGHZ0jnWe1c-c"
+TELEGRAM_BOT_TOKEN = "XXXXXXXXXX"
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 # Directorio donde se almacenan las imágenes para settins injector
